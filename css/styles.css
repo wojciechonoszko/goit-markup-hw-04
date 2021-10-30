@@ -23,6 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 600px;
+  background-image: url('images/img-overlay.jpg');
   background-color: #2f303a;
 }
 
