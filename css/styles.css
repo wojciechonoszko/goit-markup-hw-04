@@ -6,7 +6,8 @@ body {
 .container {
   width: 1200px;
   margin: 0px auto;
-  padding: 0px;
+  padding: 0px 15px;
+  align-items: center
 }
 
 .page-header {
@@ -16,6 +17,12 @@ body {
   border-bottom: 1px solid #ffffff;
   background-color: #ffffff;
   height: 80px;
+  width: 1600px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .head-background {
@@ -36,12 +43,15 @@ body {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 1600px;
+
 }
 
 .section-our-team {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
+  width: 1600px;
 }
 
 .menu {
@@ -213,6 +223,8 @@ body {
   background-color: #2f303a;
   height: 252px;
   padding: 60px;
+  width: 1600px;
+
 }
 .footer-email {
   text-decoration: none;
@@ -449,7 +461,12 @@ body {
   flex-direction: column;
   margin: 20px 24px 20px 24px;
 }
-.email-icon {
+.icon {
+  display: inline-block;
+  color: black;
   width: 16px;
   height: 12px;
+}
+.icon:hover{
+  color:#2196f3;
 }
