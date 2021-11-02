@@ -449,3 +449,7 @@ body {
   flex-direction: column;
   margin: 20px 24px 20px 24px;
 }
+.email-icon {
+  width: 16px;
+  height: 12px;
+}
