@@ -7,7 +7,7 @@ body {
   width: 1200px;
   margin: 0px auto;
   padding: 0px 15px;
-  align-items: center
+  align-items: center;
 }
 
 .page-header {
@@ -26,11 +26,15 @@ body {
 }
 
 .head-background {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), transparent),
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url("../images/img-overlay.jpg");
   background-size: 1600px 600px, cover;
   background-position: center, center;
   background-repeat: no-repeat;
+  background-color: #2f303a;
 
   height: 600px;
   width: 1600px;
@@ -44,7 +48,6 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   width: 1600px;
-
 }
 
 .section-our-team {
@@ -224,7 +227,6 @@ body {
   height: 252px;
   padding: 60px;
   width: 1600px;
-
 }
 .footer-email {
   text-decoration: none;
@@ -467,6 +469,6 @@ body {
   width: 16px;
   height: 12px;
 }
-.icon:hover{
-  color:#2196f3;
+.icon:hover {
+  color: #2196f3;
 }
