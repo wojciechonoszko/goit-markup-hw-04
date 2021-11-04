@@ -98,46 +98,60 @@ body {
 
 .email {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   text-decoration: none;
-  width: 135px;
+  width: 161px;
   height: 16px;
-  margin-right: 50px;
-  margin-left: 10px;
+  margin-right: 30px;
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14;
+  letter-height: 1.14;
+  letter-spacing: 0.02em;
 
   color: #757575;
+  fill: #757575;
+  background-color: #ffffff;
 }
 
-.email:hover {
-  color: #2196f3;
-}
+.email:hover,
 .email:focus {
   color: #2196f3;
+  fill: #2196f3;
+}
+
+.head-email-icon {
+  width: 16px;
+  height: 12px;
+}
+
+.head-phone-icon {
+  width: 10px;
+  height: auto;
 }
 
 .phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-decoration: none;
-  width: 110px;
+  width: 130px;
   height: 16px;
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 1.14;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
 
   color: #757575;
+  fill: #757575;
 }
 
-.phone:hover {
-  color: #2196f3;
-}
+.phone:hover,
 .phone:focus {
   color: #2196f3;
+  fill: #2196f3;
 }
 
 .webstudio-link {
@@ -606,4 +620,11 @@ body {
   line-height: 1.17em;
   color: #ffffff;
   letter-spacing: 0.03em;
+}
+
+.article-icon {
+  width: 70px;
+  height: 70px;
+  fill: aqua;
+  background-color: beige;
 }
