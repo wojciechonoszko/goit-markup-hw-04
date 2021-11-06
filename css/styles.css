@@ -601,7 +601,7 @@ body {
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
   background-color: #2196f3;
-  cursor: url(../images/finger-black.png);
+  cursor: url(./images/finger-black.png);
 }
 
 .footer-address-container {
